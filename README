@@ -25,3 +25,6 @@ Existing Git Repo:
   git push -u origin master
 
 ---
+
+to change computer
+  git remote rm origin
