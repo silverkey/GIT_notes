@@ -1,7 +1,13 @@
 Global setup:
  Download and install Git
-  git config --global user.name "Remo Sanges"
-  git config --global user.email noncoding@gmail.com
+  git config --global user.name "[Name Surname]"
+  git config --global user.email [email]
+
+To add another machine you need to generate the public key:
+  ssh-keygen -t rsa -C "[email]"
+      
+To clone a public repository in a new machine:
+  git clone git://github.com/[username]/[repo name].git
         
 After the creation of a repository from the website:
   mkdir [repo name]
@@ -10,13 +16,10 @@ After the creation of a repository from the website:
   touch README
   git add README
   git commit -m 'first commit'
-  git remote add origin git@github.com:silverkey/[repo name].git
+  git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
       
 Existing Git Repo:
   cd existing_git_repo
-  git remote add origin git@github.com:silverkey/[repo name].git
+  git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
-      
-To clone a public repository in a new machine:
-  git clone git://github.com/silverkey/[repo name].git
