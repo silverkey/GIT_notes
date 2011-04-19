@@ -30,3 +30,5 @@ To add changes when change computer
   git commit -m '[comment]'
   git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
+
+....
