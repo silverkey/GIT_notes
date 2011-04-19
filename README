@@ -22,6 +22,7 @@ After the creation of a repository from the website:
 To add changes when change computer
   git remote rm origin
   git init
+  git add .
   git commit -m '[comment]'
   git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
