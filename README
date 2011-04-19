@@ -19,7 +19,7 @@ After the creation of a repository from the website:
   git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
       
-To add changes when change computer
+To add changes when change computer (for the first time)
   git remote rm origin
   git init
   git add .
@@ -27,9 +27,9 @@ To add changes when change computer
   git remote add origin git@github.com:[username]/[repo name].git
   git push -u origin master
 
-Existing Git Repo:
-  cd existing_git_repo
-# git remote add origin git@github.com:[username]/[repo name].git
+Existing Git Repo (current 'origin'):
+  git add .
+  git commit -m '[message]'
   git push -u origin master
 
 ....
